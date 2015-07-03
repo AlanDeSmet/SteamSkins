@@ -205,7 +205,7 @@
 			padding-top=5
 			padding-right=10
 			padding-bottom=5
-			font-size=30
+			font-size=45
 			textcolor=Text
 			font-weight=400
 			bgcolor=DarkDialogBGTransparent
@@ -228,7 +228,7 @@
 		{
 			padding-left=0
 			font-family=basefont
-			font-size=16
+			font-size=24
 			font-weight=400
 			textcolor=LabelDisabled
 			inset="0 -2 0 0"
@@ -237,7 +237,7 @@
 		TextEntry
 		{
 			font-family=basefont
-			font-size=14
+			font-size=21
 			textcolor="Text"
 			font-weight=400
 			bgcolor="none"
@@ -272,7 +272,7 @@
 		{
 			padding-left=-4
 			font-family=basefont
-			font-size=14
+			font-size=21
 			font-weight=400	
 			textcolor="text"	
 		}
@@ -328,8 +328,8 @@
 
 		MusicAddButton
 		{
-			font-size=14
-			font-size=13 [$OSX]
+			font-size=21
+			font-size=20 [$OSX]
 			font-family=basefont
 			textcolor="labelfocus"
 			font-style=uppercase
@@ -385,7 +385,7 @@
 		{
 			padding-left=0
 			font-family=basefont
-			font-size=14 
+			font-size=21 
 			font-weight=400
 			textcolor="LabelDisabled"
 			font-style=uppercase
@@ -395,7 +395,7 @@
 		{
 			padding-left=0
 			font-family=basefont
-			font-size=13 
+			font-size=20 
 			font-weight=400
 			textcolor="LabelDisabled"
 			font-style=uppercase 
@@ -404,8 +404,8 @@
 		NavLabel
 		{
 			font-family=basefont
-			font-size=14 [!$OSX]
-			font-size=15 [$OSX] 
+			font-size=21 [!$OSX]
+			font-size=22 [$OSX] 
 			font-weight=400
 			textcolor="Label"
 			font-style=uppercase
@@ -414,7 +414,7 @@
 		NavLabelView [!$OSX]
 		{
 			font-family=basefont
-			font-size=14
+			font-size=21
 			font-weight=400
 			textcolor="LabelDisabled"
 			font-style=uppercase
@@ -424,7 +424,7 @@
 		NavLabelView [$OSX]
 		{
 			font-family=basefont
-			font-size=13 
+			font-size=20 
 			font-weight=400
 			textcolor="LabelDisabled"
 			font-style=uppercase
@@ -436,7 +436,7 @@
 		NavLabelZoom [!$OSX]
 		{
 			font-family=basefont
-			font-size=14 
+			font-size=21 
 			font-weight=400
 			textcolor="LabelDisabled"
 			font-style=uppercase 
@@ -446,7 +446,7 @@
 		NavLabelZoom [$OSX]
 		{
 			font-family=basefont
-			font-size=13 
+			font-size=20 
 			font-weight=400
 			textcolor="LabelDisabled"
 			font-style=uppercase 
@@ -456,7 +456,7 @@
 		NavLabel2 [!$OSX]
 		{
 			font-family=basefont
-			font-size=14
+			font-size=21
 			font-weight=400
 			textcolor="labelfocus"
 			font-style="uppercase"
@@ -465,7 +465,7 @@
 		NavLabel2 [$OSX]
 		{
 			font-family=basefont
-			font-size=13
+			font-size=20
 			font-weight=400
 			textcolor="labelfocus"
 			font-style="uppercase"
@@ -641,7 +641,7 @@
 			font-family=basefont
 			inset-top=1
 			inset-left=2
-			font-size=14
+			font-size=21
 			textcolor="label"
 			font-weight=400
 			bgcolor="none"
@@ -655,7 +655,7 @@
 			font-family=basefont
 			inset-top=1
 			inset-left=2
-			font-size=14
+			font-size=21
 			textcolor="label"
 			font-weight=400
 			bgcolor="none"
@@ -685,7 +685,7 @@
 			textcolor="Labelfocus"
 			bgcolor="none"
 			font-family=basefont
-			font-size=24
+			font-size=36
 			font-weight=400 
 			font-style="uppercase"
 			padding-left=5
@@ -697,7 +697,7 @@
 			textcolor="Labelfocus"
 			bgcolor="none"
 			font-family=basefont
-			font-size=24
+			font-size=36
 			font-weight=400 
 			font-style="uppercase"
 			padding-left=5
@@ -709,7 +709,7 @@
 			textcolor="TextDisabled"
 			bgcolor="none"
 			font-family=basefont
-			font-size=26
+			font-size=39
 			font-weight=400 
 			font-style="uppercase"
 		}
@@ -744,7 +744,7 @@
 			textcolor="Labelfocus"
 			bgcolor="none"
 			font-family=basefont
-			font-size=15
+			font-size=22
 			font-weight=400 
 			font-style="uppercase"
 			padding-left=5
@@ -757,7 +757,7 @@
 			textcolor="Labelfocus"
 			bgcolor="none"
 			font-family=basefont
-			font-size=13 
+			font-size=20 
 			font-weight=400 
 			font-style="uppercase"
 			padding-left=5
@@ -806,7 +806,7 @@
 		LabelEVCert [!$OSX]
 		{
 		font-family=basefont
-		font-size=14
+		font-size=21
 		textcolor="darkclientbg"
 		font-weight=400
 		bgcolor="html.secureurl"
@@ -819,7 +819,7 @@
 		LabelEVCert [$OSX]
 		{
 		font-family=basefont
-		font-size=14
+		font-size=21
 		textcolor="darkclientbg"
 		font-weight=400
 		bgcolor="html.secureurl"
