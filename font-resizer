@@ -1,0 +1,14 @@
+#! /usr/bin/perl -w
+
+# Scans Steam style files and increases the font size.  Originally by Alan  De Smet
+# In the public domain as this program is too simply to make a copyright claim.
+
+use strict;
+my $MULT = 1.5;
+while(<>) {
+	for(my $src = 30; $src > 6; $src--) {
+		my $dst = sprintf("%.0f", $src * $MULT);
+		s/(font-size="?)$src+("?\s)/$1$dst$2/;
+	}
+	print;
+}
